@@ -1,15 +1,15 @@
 import React from "react";
-import Grovy from "../assets/images/grovy.jpg"
+import Grovy from "../assets/images/grovy.jpg";
 
 const About = () => {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-[70vh] bg-[#D9CEC0]">
       <div className="hero-content flex-col gap-10 lg:flex-row-reverse">
         <div className="flex-1">
-          <h1 className="text-3xl mb-5">CORPORATE VIDEO</h1>
+          <h1 className="text-3xl mb-5 text-black">CORPORATE VIDEO</h1>
           <img src={Grovy} />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 text-black">
           <h1 className="text-5xl font-bold">ABOUT US</h1>
           <div class=" w-14 mt-5 border-t-4 border-white "></div>
           <p className="py-6">
