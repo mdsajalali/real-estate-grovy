@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="absolute top-3 pl-5 flex  ">
           <img src={Logo} alt="" />
 
-          <div className="flex gap-4 text-white">
+          <div className="flex  ml-[300px] -mt-1 gap-4 text-white">
             <p>
               QUESTIONS? CALL: <b>+971-4-2323224</b>
             </p>
