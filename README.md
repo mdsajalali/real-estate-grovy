@@ -1,8 +1,13 @@
-# React + Vite
+# Real-State_Grovy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Responsive Real State website
 
-Currently, two official plugins are available:
+#### Live Link: [Real-Estate-Grovy](https://real-estate-grovy.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Used Technology
+
+- [x] HTML
+- [x] TAILWINDCSS
+- [x] TAILWINDCSS [DaisyUI]
+- [x] GOOGLE FONTS [Montserrat,Open Sans]
+- [x] ICON [React-Icons]
