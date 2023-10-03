@@ -50,10 +50,13 @@ const NavItem = () => {
               <a>PROJECTS</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Aura</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Alcove</a>
+                </li>
+                <li>
+                  <a>Aria</a>
                 </li>
               </ul>
             </li>
@@ -101,10 +104,13 @@ const NavItem = () => {
               <summary>Projects</summary>
               <ul className="p-2 text-black">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Aura</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Alcove</a>
+                </li>
+                <li>
+                  <a>Aria</a>
                 </li>
               </ul>
             </details>
