@@ -5,7 +5,7 @@ import gallery from "../assets/images/gallery.jpg";
 const Card = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex items-center justify-center flex-wrap gap-5 mb-10">
+      <div className="flex items-center justify-center flex-wrap gap-5 mb-10 mx-2">
         <div className="flex flex-col bg-white p-5 border border-black px-20 rounded-lg hover:shadow-2xl transition-all cursor-pointer">
           <img className="w-14" src={book} alt="" />
           <h1 className="text-2xl text-black">Company Profile</h1>

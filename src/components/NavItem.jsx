@@ -129,7 +129,7 @@ const NavItem = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end ml-72 md:ml-0">
+      <div className="navbar-end ml-[160px] md:ml-0">
         <a className="btn bg-[#016B98] text-white">PAYMENTS</a>
       </div>
     </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import aura from "../assets/images/aura.png";
-import aria from "../assets/images/aria.png";
 import alcove from "../assets/images/alcove.png";
-import project01 from "../assets/images/project01.jpg";
+import aria from "../assets/images/aria.png";
+import aura from "../assets/images/aura.png";
 import project02 from "../assets/images/project-2.jpg";
 import project03 from "../assets/images/project-3.jpg";
+import project01 from "../assets/images/project01.jpg";
 
 const ProjectCard = () => {
   return (
@@ -29,11 +29,10 @@ const ProjectCard = () => {
               the most exclusive hotels. Open-plan living spaces lets you create
               a space that best suits your furnishing needs. Spacious Bedrooms
               are thoughtfully planned to create a beautiful haven for rest and
-              relaxation.  
+              relaxation.
             </p>
             <div className="card-actions">
-          <button className="btn btn-neutral">Read More</button>
-              
+              <button className="btn btn-neutral">Read More</button>
             </div>
           </div>
         </div>
@@ -62,8 +61,7 @@ const ProjectCard = () => {
               amenities and features.
             </p>
             <div className="card-actions">
-          <button className="btn btn-neutral">Read More</button>
-              
+              <button className="btn btn-neutral">Read More</button>
             </div>
           </div>
         </div>
@@ -98,8 +96,7 @@ const ProjectCard = () => {
               someone who desires to pamper themselves with a luxury living.
             </p>
             <div className="card-actions">
-          <button className="btn btn-neutral">Read More</button>
-              
+              <button className="btn btn-neutral">Read More</button>
             </div>
           </div>
         </div>
