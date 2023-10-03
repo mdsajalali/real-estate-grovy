@@ -1,7 +1,7 @@
 import React from 'react'
 import Strength from '../components/Strength';
 
-const OurStrength = () => {
+const Strengths = () => {
   return (
     <div className="container mx-auto my-32">
       <div className="text-white text-center my-12">
@@ -17,4 +17,4 @@ const OurStrength = () => {
   );
 }
 
-export default OurStrength
+export default Strengths
