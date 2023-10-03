@@ -1,5 +1,6 @@
 import About from "./pages/About";
 import Card from "./pages/Card";
+import Footer from "./pages/Footer";
 import Hero from "./pages/Hero";
 import Navbar from "./pages/Navbar";
 import OurStrength from "./pages/OurStrength";
@@ -18,6 +19,7 @@ const App = () => {
       <OurStrength />
       <Testimonials />
       <Card />
+      <Footer />
     </div>
   );
 };
