@@ -8,7 +8,7 @@ import project03 from "../assets/images/project-3.jpg";
 
 const ProjectCard = () => {
   return (
-    <div className="flex gap-5 items-center justify-between flex-wrap">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
       <div>
         <div className="flex items-center  gap-5 my-5">
           <div className="w-16 ">

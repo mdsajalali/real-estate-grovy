@@ -3,7 +3,7 @@ import Grovy from "../assets/images/grovy.jpg";
 
 const About = () => {
   return (
-    <div className="hero min-h-[70vh] bg-[#D9CEC0]">
+    <div className="hero min-h-[70vh] bg-[#D9CEC0] px-10 md:px-0">
       <div className="hero-content flex-col gap-10 lg:flex-row-reverse">
         <div className="flex-1">
           <h1 className="text-3xl mb-5 text-black">CORPORATE VIDEO</h1>
@@ -26,7 +26,7 @@ const About = () => {
               define class, elegance and opulence.
             </p>
           </p>
-          <button className="btn btn-primary bg-[#4A3833]">Read More</button>
+          <button className="btn btn-neutral">Read More</button>
         </div>
       </div>
     </div>

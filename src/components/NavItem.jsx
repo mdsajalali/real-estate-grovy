@@ -2,7 +2,7 @@ import React from "react";
 
 const NavItem = () => {
   return (
-    <div className="navbar text-white ">
+    <div className="navbar text-black xl:text-white ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -129,7 +129,7 @@ const NavItem = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end ml-72 md:ml-0">
         <a className="btn bg-[#016B98] text-white">PAYMENTS</a>
       </div>
     </div>

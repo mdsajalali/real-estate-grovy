@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div className="bg-[#EAEAEA]">
       <div className="container mx-auto my-20">
-        <div className="flex flex-wrap items-center justify-center gap-10">
+        <div className="flex flex-wrap items-center justify-center gap-10 ">
           <div className="text-white  my-12">
             <h1 className="text-4xl text-black">TESTIMONIALS</h1>
             <p className="bg-[#DD9933] w-16 h-1  my-5"></p>
@@ -17,7 +17,7 @@ const Testimonials = () => {
             </p>
             <button className="btn btn-neutral">VIEW ALL</button>
           </div>
-          <div className="flex gap-10 flex-wrap">
+          <div className="flex gap-10 flex-wrap justify-center items-center mb-10">
             <img
               className="w-80 h-48 object-cover rounded-lg"
               src={test1}

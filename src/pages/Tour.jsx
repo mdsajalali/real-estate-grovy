@@ -3,7 +3,7 @@ import TourCard from "../components/TourCard";
 
 const Tour = () => {
   return (
-    <div className="bg-[#4A3833] py-10">
+    <div className="bg-[#4A3833] py-10 px-10 md:px-0">
       <div className="container mx-auto">
         <div className="text-white text-center my-16">
           <p className="  bg-red-600 w-16 h-1 mx-auto my-5 "></p>

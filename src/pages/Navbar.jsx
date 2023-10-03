@@ -13,12 +13,12 @@ const Navbar = () => {
     <div>
       <div className="relative border-t-[3px] border-[#3BBFAD] h-28 w-full">
         <div>
-          <img src={NavBg} alt="" />
+          <img className="hidden xl:block" src={NavBg} alt="" />
         </div>
         <div className="absolute top-3 pl-5 flex  ">
-          <img src={Logo} alt="" />
+          <img className="hidden xl:block" src={Logo} alt="" />
 
-          <div className="flex  ml-[300px] -mt-1 gap-4 text-white">
+          <div className="flex  ml-[300px] -mt-1 gap-4 text-white hidden xl:block">
             <p>
               QUESTIONS? CALL: <b>+971-4-2323224</b>
             </p>

@@ -30,7 +30,7 @@ const Footer = () => {
         </footer>
 
         <footer className="footer items-center p-4 
-        text-neutral-content">
+        text-neutral-content mx-5 md:mx-0">
           <aside className="items-center grid-flow-col">
             <img className="w-24" src={logo} alt="" />
             <p>Copyright © 2023 - All right reserved</p>
