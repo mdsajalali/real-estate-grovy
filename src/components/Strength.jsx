@@ -20,7 +20,7 @@ const Strength = () => {
       </div>
       <div className="flex gap-5 items-center justify-center">
         <div>
-          <img className="w-40 " src={strength2} alt="" />
+          <img className="w-48 " src={strength2} alt="" />
         </div>
         <div>
           <p>
@@ -42,7 +42,7 @@ const Strength = () => {
       </div>
       <div className="flex gap-5 items-center justify-center">
         <div>
-          <img className="w-40 " src={strength4} alt="" />
+          <img className="w-52 " src={strength4} alt="" />
         </div>
         <div>
           <p>
