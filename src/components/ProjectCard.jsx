@@ -32,9 +32,8 @@ const ProjectCard = () => {
               relaxation.  
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary bg-[#4A3833]">
-                READ MORE
-              </button>
+          <button className="btn btn-neutral">Read More</button>
+              
             </div>
           </div>
         </div>
@@ -63,9 +62,8 @@ const ProjectCard = () => {
               amenities and features.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary bg-[#4A3833]">
-                READ MORE
-              </button>
+          <button className="btn btn-neutral">Read More</button>
+              
             </div>
           </div>
         </div>
@@ -100,9 +98,8 @@ const ProjectCard = () => {
               someone who desires to pamper themselves with a luxury living.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary bg-[#4A3833]">
-                READ MORE
-              </button>
+          <button className="btn btn-neutral">Read More</button>
+              
             </div>
           </div>
         </div>
