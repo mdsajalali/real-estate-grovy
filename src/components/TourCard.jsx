@@ -13,7 +13,7 @@ const TourCard = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="border-t-4 border-indigo-500 w-16 h-2"></p>
+          <p className="bg-[#D2AF6D] w-16 h-1"></p>
         </div>
       </div>
       <div className="card w-full bg-base-100 shadow-xl">
@@ -22,16 +22,16 @@ const TourCard = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="border-t-4 border-indigo-500 w-16 h-2"></p>
+          <p className="bg-[#D2AF6D] w-16 h-1"></p>
         </div>
       </div>
       <div className="card w-full bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
+        <figure className="px-10 pt-14">
           <img src={tour3} alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="border-t-4 border-indigo-500 w-16 h-2"></p>
+          <p className="bg-[#D2AF6D] w-16 h-1"></p>
         </div>
       </div>
       <div className="card w-full bg-base-100 shadow-xl">
@@ -40,7 +40,7 @@ const TourCard = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="border-t-4 border-indigo-500 w-16 h-2"></p>
+          <p className="bg-[#D2AF6D] w-16 h-1"></p>
         </div>
       </div>
     </div>

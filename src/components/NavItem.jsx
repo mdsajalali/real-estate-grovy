@@ -80,7 +80,7 @@ const NavItem = () => {
           <li tabIndex={0}>
             <details>
               <summary>ABOUT</summary>
-              <ul className="p-2 w-56">
+              <ul className="p-2 w-56 text-black">
                 <li>
                   <a>About the Developer</a>
                 </li>
@@ -99,7 +99,7 @@ const NavItem = () => {
           <li tabIndex={0}>
             <details>
               <summary>Projects</summary>
-              <ul className="p-2">
+              <ul className="p-2 text-black">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -124,7 +124,7 @@ const NavItem = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#016B98]">PAYMENTS</a>
+        <a className="btn bg-[#016B98] text-white">PAYMENTS</a>
       </div>
     </div>
   );

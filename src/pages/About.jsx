@@ -26,7 +26,7 @@ const About = () => {
               define class, elegance and opulence.
             </p>
           </p>
-          <button className="btn btn-primary">Read More</button>
+          <button className="btn btn-primary bg-[#4A3833]">Read More</button>
         </div>
       </div>
     </div>

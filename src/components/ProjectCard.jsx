@@ -29,7 +29,9 @@ const ProjectCard = () => {
               finished to the highest standard.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">READ MORE</button>
+              <button className="btn btn-primary bg-[#4A3833]">
+                READ MORE
+              </button>
             </div>
           </div>
         </div>
@@ -59,7 +61,9 @@ const ProjectCard = () => {
               finished to the highest standard.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">READ MORE</button>
+              <button className="btn btn-primary bg-[#4A3833]">
+                READ MORE
+              </button>
             </div>
           </div>
         </div>
@@ -89,7 +93,9 @@ const ProjectCard = () => {
               finished to the highest standard.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">READ MORE</button>
+              <button className="btn btn-primary bg-[#4A3833]">
+                READ MORE
+              </button>
             </div>
           </div>
         </div>
