@@ -9,5 +9,6 @@
 - [x] HTML
 - [x] TAILWINDCSS
 - [x] TAILWINDCSS [DaisyUI]
+- [x] FIREBASE - LOGIN
 - [x] GOOGLE FONTS [Montserrat,Open Sans]
 - [x] ICON [React-Icons]
