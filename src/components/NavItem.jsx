@@ -1,5 +1,6 @@
-import React from "react";
-
+import { getAuth, signOut } from "firebase/auth";
+import { app } from "../firebase";
+const auth = getAuth(app);
 const NavItem = () => {
   return (
     <div className="navbar text-black xl:text-white ">
@@ -130,7 +131,12 @@ const NavItem = () => {
         </ul>
       </div>
       <div className="navbar-end ml-[160px] md:ml-0">
-        <a className="btn bg-[#016B98] text-white">PAYMENTS</a>
+        <a
+          className="btn bg-[#016B98] text-white"
+          onClick={() => signOut(auth)}
+        >
+          LogOut
+        </a>
       </div>
     </div>
   );
