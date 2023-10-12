@@ -3,13 +3,13 @@ import { app } from "../firebase";
 const auth = getAuth(app);
 const NavItem = () => {
   return (
-    <div className="navbar text-black xl:text-white ">
-      <div className="navbar-start">
+    <div className="navbar text-black xl:text-white  container mx-auto px-5">
+      <div>
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -76,14 +76,15 @@ const NavItem = () => {
           </ul>
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+
+      <div className="navbar-start hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 ">
           <li>
-            <a>HOME</a>
+            <a className="hover:text-white">HOME</a>
           </li>
           <li tabIndex={0}>
             <details>
-              <summary>ABOUT</summary>
+              <summary className="hover:text-white">ABOUT</summary>
               <ul className="p-2 w-56 text-black">
                 <li>
                   <a>About the Developer</a>
@@ -102,7 +103,7 @@ const NavItem = () => {
           </li>
           <li tabIndex={0}>
             <details>
-              <summary>Projects</summary>
+              <summary className="hover:text-white">Projects</summary>
               <ul className="p-2 text-black">
                 <li>
                   <a>Aura</a>
@@ -117,26 +118,24 @@ const NavItem = () => {
             </details>
           </li>
           <li>
-            <a>EVENTS</a>
+            <a className="hover:text-white">EVENTS</a>
           </li>
           <li>
-            <a>TESTIMONIALS</a>
+            <a className="hover:text-white">TESTIMONIALS</a>
           </li>
           <li>
-            <a>BLOG</a>
+            <a className="hover:text-white">BLOG</a>
           </li>
           <li>
-            <a>CONTACT</a>
+            <a className="hover:text-white">CONTACT</a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end ml-[160px] md:ml-0">
-        <a
-          className="btn bg-[#016B98] text-white"
-          onClick={() => signOut(auth)}
-        >
+
+      <div className="navbar-end">
+        <button className="btn btn-neutral" onClick={() => signOut(auth)}>
           LogOut
-        </a>
+        </button>
       </div>
     </div>
   );
