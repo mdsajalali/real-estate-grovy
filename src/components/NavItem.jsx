@@ -4,80 +4,78 @@ const auth = getAuth(app);
 const NavItem = () => {
   return (
     <div className="container navbar mx-auto  px-5 text-black xl:text-white">
-      <div>
-        <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 text-white"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
-          <ul
-            tabIndex={0}
-            className="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-100 p-2 shadow"
+      <div className="dropdown">
+        <label tabIndex={0} className="btn btn-ghost 2xl:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <li>
-              <a>HOME</a>
-            </li>
-            <li>
-              <a>ABOUT</a>
-              <ul className="p-2">
-                <li>
-                  <a>About the Developer</a>
-                </li>
-                <li>
-                  <a>Why Grovy</a>
-                </li>
-                <li>
-                  <a>The Management</a>
-                </li>
-                <li>
-                  <a>About Grovy India</a>
-                </li>
-              </ul>
-            </li>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h8m-8 6h16"
+            />
+          </svg>
+        </label>
+        <ul
+          tabIndex={0}
+          className="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-100 p-2 shadow"
+        >
+          <li>
+            <a>HOME</a>
+          </li>
+          <li>
+            <a>ABOUT</a>
+            <ul className="p-2">
+              <li>
+                <a>About the Developer</a>
+              </li>
+              <li>
+                <a>Why Grovy</a>
+              </li>
+              <li>
+                <a>The Management</a>
+              </li>
+              <li>
+                <a>About Grovy India</a>
+              </li>
+            </ul>
+          </li>
 
-            <li>
-              <a>PROJECTS</a>
-              <ul className="p-2">
-                <li>
-                  <a>Aura</a>
-                </li>
-                <li>
-                  <a>Alcove</a>
-                </li>
-                <li>
-                  <a>Aria</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>EVENTS</a>
-            </li>
-            <li>
-              <a>TESTIMONIALS</a>
-            </li>
-            <li>
-              <a>BLOG</a>
-            </li>
-            <li>
-              <a>CONTACT</a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a>PROJECTS</a>
+            <ul className="p-2">
+              <li>
+                <a>Aura</a>
+              </li>
+              <li>
+                <a>Alcove</a>
+              </li>
+              <li>
+                <a>Aria</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>EVENTS</a>
+          </li>
+          <li>
+            <a>TESTIMONIALS</a>
+          </li>
+          <li>
+            <a>BLOG</a>
+          </li>
+          <li>
+            <a>CONTACT</a>
+          </li>
+        </ul>
       </div>
 
-      <div className="navbar-start hidden lg:flex">
+      <div className="navbar-start hidden 2xl:flex ">
         <ul className="menu menu-horizontal px-1 ">
           <li>
             <a className="hover:text-white">HOME</a>
@@ -132,7 +130,7 @@ const NavItem = () => {
         </ul>
       </div>
 
-      <div className="navbar-end">
+      <div className="absolute right-10 md:right-24 2xl:right-0 2xl:px-52">
         <button className="btn btn-neutral" onClick={() => signOut(auth)}>
           LogOut
         </button>
