@@ -8,7 +8,7 @@ import project01 from "../assets/images/project01.jpg";
 
 const ProjectCard = () => {
   return (
-    <div className="grid grid-cols-1 place-items-center gap-10 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 place-items-center gap-10 md:grid-cols-2 2xl:grid-cols-3">
       <div>
         <div className="my-5 flex  items-center gap-5">
           <div className="w-16 ">
