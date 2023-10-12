@@ -6,8 +6,8 @@ import strength4 from "../assets/images/strength-4.png";
 
 const Strength = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-10 md:mx-0">
-      <div className="flex gap-5 items-center justify-center">
+    <div className="mx-10 grid grid-cols-1 gap-10 md:mx-0 md:grid-cols-2 lg:grid-cols-4">
+      <div className="flex items-center justify-center gap-5">
         <div>
           <img className="w-[110px] md:w-20 " src={strength1} alt="" />
         </div>
@@ -18,7 +18,7 @@ const Strength = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-5 items-center justify-center">
+      <div className="flex items-center justify-center gap-5">
         <div>
           <img className="w-40 md:w-48" src={strength2} alt="" />
         </div>
@@ -29,7 +29,7 @@ const Strength = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-5 items-center justify-center">
+      <div className="flex items-center justify-center gap-5">
         <div>
           <img className="w-32 md:w-40" src={strength3} alt="" />
         </div>
@@ -40,9 +40,9 @@ const Strength = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-5 items-center justify-center">
+      <div className="flex items-center justify-center gap-5">
         <div>
-          <img className="w-[180px] md:w-50" src={strength4} alt="" />
+          <img className="md:w-50 w-[180px]" src={strength4} alt="" />
         </div>
         <div>
           <p>

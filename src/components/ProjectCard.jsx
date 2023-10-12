@@ -8,9 +8,9 @@ import project01 from "../assets/images/project01.jpg";
 
 const ProjectCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+    <div className="grid grid-cols-1 place-items-center gap-10 md:grid-cols-2 lg:grid-cols-3">
       <div>
-        <div className="flex items-center  gap-5 my-5">
+        <div className="my-5 flex  items-center gap-5">
           <div className="w-16 ">
             <img src={aura} alt="" />
           </div>
@@ -20,7 +20,7 @@ const ProjectCard = () => {
           </div>
         </div>
         <div className="card w-96 bg-base-100 shadow-xl">
-          <figure className="w-full h-[200px]">
+          <figure className="h-[200px] w-full">
             <img src={project01} alt="Shoes" />
           </figure>
           <div className="card-body">
@@ -39,7 +39,7 @@ const ProjectCard = () => {
       </div>
 
       <div>
-        <div className="flex items-center  gap-5 my-5">
+        <div className="my-5 flex  items-center gap-5">
           <div className="w-20 ">
             <img src={aria} alt="" />
           </div>
@@ -49,7 +49,7 @@ const ProjectCard = () => {
           </div>
         </div>
         <div className="card w-96 bg-base-100 shadow-xl">
-          <figure className="w-full h-[200px]">
+          <figure className="h-[200px] w-full">
             <img src={project02} alt="Shoes" />
           </figure>
           <div className="card-body">
@@ -68,7 +68,7 @@ const ProjectCard = () => {
       </div>
 
       <div>
-        <div className="flex items-center  gap-5 my-5">
+        <div className="my-5 flex  items-center gap-5">
           <div className="w-20 ">
             <img src={alcove} alt="" />
           </div>
@@ -80,11 +80,11 @@ const ProjectCard = () => {
           </div>
         </div>
         <div className="card w-96 bg-base-100 shadow-xl">
-          <figure className="w-full h-[200px] ">
+          <figure className="h-[200px] w-full ">
             <img
               src={project03}
               alt="Shoes"
-              className="rounded-r-lg rounded-l-lg"
+              className="rounded-l-lg rounded-r-lg"
             />
           </figure>
           <div className="card-body">

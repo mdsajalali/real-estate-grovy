@@ -3,7 +3,7 @@ import { app } from "../firebase";
 const auth = getAuth(app);
 const NavItem = () => {
   return (
-    <div className="navbar text-black xl:text-white  container mx-auto px-5">
+    <div className="container navbar mx-auto  px-5 text-black xl:text-white">
       <div>
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -24,7 +24,7 @@ const NavItem = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-100 p-2 shadow"
           >
             <li>
               <a>HOME</a>
@@ -85,7 +85,7 @@ const NavItem = () => {
           <li tabIndex={0}>
             <details>
               <summary className="hover:text-white">ABOUT</summary>
-              <ul className="p-2 w-56 text-black">
+              <ul className="w-56 p-2 text-black">
                 <li>
                   <a>About the Developer</a>
                 </li>

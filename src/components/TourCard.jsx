@@ -6,14 +6,14 @@ import tour4 from "../assets/images/tour-4.jpg";
 
 const TourCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
+    <div className="grid grid-cols-1 gap-10 md:grid-cols-2 ">
       <div className="card w-full bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img src={tour1} alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="bg-[#D2AF6D] w-16 h-1"></p>
+          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
         </div>
       </div>
       <div className="card w-full bg-base-100 shadow-xl">
@@ -22,7 +22,7 @@ const TourCard = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="bg-[#D2AF6D] w-16 h-1"></p>
+          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
         </div>
       </div>
       <div className="card w-full bg-base-100 shadow-xl">
@@ -31,7 +31,7 @@ const TourCard = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="bg-[#D2AF6D] w-16 h-1"></p>
+          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
         </div>
       </div>
       <div className="card w-full bg-base-100 shadow-xl">
@@ -40,7 +40,7 @@ const TourCard = () => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="bg-[#D2AF6D] w-16 h-1"></p>
+          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
         </div>
       </div>
     </div>

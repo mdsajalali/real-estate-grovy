@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import banner1 from "../assets/images/banner-1.jpg"
-import banner2 from "../assets/images/banner-2.jpg"
-import banner3 from "../assets/images/banner-3.jpg"
-import banner4 from "../assets/images/banner-4.jpg"
+import banner1 from "../assets/images/banner-1.jpg";
+import banner2 from "../assets/images/banner-2.jpg";
+import banner3 from "../assets/images/banner-3.jpg";
+import banner4 from "../assets/images/banner-4.jpg";
 
 const Carousel = () => {
   return (
     <div>
-      <div className="carousel w-full h-[82vh]">
+      <div className="carousel h-[82vh] w-full">
         <div id="item1" className="carousel-item w-full">
           <img src={banner1} className="w-full object-cover" />
         </div>
@@ -22,7 +21,7 @@ const Carousel = () => {
           <img src={banner4} className="w-full object-cover" />
         </div>
       </div>
-      <div className="flex justify-center w-full py-2 gap-2">
+      <div className="flex w-full justify-center gap-2 py-2">
         <a href="#item1" className="btn btn-xs">
           1
         </a>
