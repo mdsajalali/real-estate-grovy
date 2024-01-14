@@ -43,3 +43,11 @@ import strength3 from "../assets/images/strength-3.png";
 import strength4 from "../assets/images/strength-4.png";
 
 export const strengthImg = [strength1, strength2, strength3, strength4]
+
+// Testimonial images
+import test1 from "../assets/images/test-1.jpg";
+import test2 from "../assets/images/test-2.jpg";
+import test3 from "../assets/images/test-3.jpg";
+
+
+export const testimonialImg = [test1, test2, test3, tour4]
