@@ -1,48 +1,19 @@
-import React from "react";
-import tour1 from "../assets/images/tour-1.jpg";
-import tour2 from "../assets/images/tour-2.jpg";
-import tour3 from "../assets/images/tour-3.jpg";
-import tour4 from "../assets/images/tour-4.jpg";
+import { tourImg } from "../data/index.js";
 
 const TourCard = () => {
   return (
-    <div className="grid grid-cols-1 gap-10 md:grid-cols-2 ">
-      <div className="card w-full bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img src={tour1} alt="Shoes" className="rounded-xl" />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
+    <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+      {tourImg.map((img, index) => (
+        <div key={index} className="card w-full bg-base-100 shadow-xl overflow-hidden">
+          <figure className="px-10 pt-10">
+            <img src={img} alt="Shoes" className="rounded-xl transition-transform transform hover:scale-105" />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Aria Show Apartment</h2>
+            <div className="h-1 w-16 bg-[#D2AF6D] mx-auto my-3"></div>
+          </div>
         </div>
-      </div>
-      <div className="card w-full bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img src={tour2} alt="Shoes" className="rounded-xl" />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
-        </div>
-      </div>
-      <div className="card w-full bg-base-100 shadow-xl">
-        <figure className="px-10 pt-14">
-          <img src={tour3} alt="Shoes" className="rounded-xl" />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
-        </div>
-      </div>
-      <div className="card w-full bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img src={tour4} alt="Shoes" className="rounded-xl" />
-        </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">Aria Show Apartment</h2>
-          <p className="h-1 w-16 bg-[#D2AF6D]"></p>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

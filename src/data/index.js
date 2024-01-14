@@ -26,3 +26,12 @@ import project01 from "../assets/images/project-3.jpg";
 
 
 export const projectImg = [project01, project02, project03];
+
+// Tour images
+
+import tour1 from "../assets/images/tour-1.jpg";
+import tour2 from "../assets/images/tour-2.jpg";
+import tour3 from "../assets/images/tour-3.jpg";
+import tour4 from "../assets/images/tour-4.jpg";
+
+export const tourImg = [tour1, tour2, tour3, tour4];
