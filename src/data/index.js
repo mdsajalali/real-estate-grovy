@@ -10,3 +10,19 @@ export const img = [
   banner3,
   banner4
 ];
+
+// project images logo
+import alcove from "../assets/images/alcove.png";
+import aria from "../assets/images/aria.png";
+import aura from "../assets/images/aura.png";
+
+export const projectLogo = [aura, alcove, aria];
+
+// Project images
+import project03 from "../assets/images/project01.jpg";
+import project02 from "../assets/images/project-2.jpg";
+import project01 from "../assets/images/project-3.jpg";
+
+
+
+export const projectImg = [project01, project02, project03];
