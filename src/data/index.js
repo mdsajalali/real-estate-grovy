@@ -35,3 +35,11 @@ import tour3 from "../assets/images/tour-3.jpg";
 import tour4 from "../assets/images/tour-4.jpg";
 
 export const tourImg = [tour1, tour2, tour3, tour4];
+
+// Strength images
+import strength1 from "../assets/images/strength-1.png";
+import strength2 from "../assets/images/strength-2.png";
+import strength3 from "../assets/images/strength-3.png";
+import strength4 from "../assets/images/strength-4.png";
+
+export const strengthImg = [strength1, strength2, strength3, strength4]
