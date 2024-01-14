@@ -11,6 +11,8 @@ const TourCard = () => {
           <div className="card-body items-center text-center">
             <h2 className="card-title">Aria Show Apartment</h2>
             <div className="h-1 w-16 bg-[#D2AF6D] mx-auto my-3"></div>
+             <button className="btn btn-wide ">Explore</button>
+
           </div>
         </div>
       ))}
