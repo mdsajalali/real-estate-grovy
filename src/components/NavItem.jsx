@@ -1,7 +1,9 @@
 import { getAuth, signOut } from "firebase/auth";
 import { app } from "../firebase";
 const auth = getAuth(app);
-const NavItem = () => {
+const NavItem = ({ user }) => {
+  console.log(user);
+
   return (
     <div className="container navbar mx-auto  px-5 text-black xl:text-white">
       <div className="dropdown">
@@ -131,9 +133,28 @@ const NavItem = () => {
       </div>
 
       <div className="absolute right-10 md:right-24 2xl:right-0 2xl:px-52">
-        <button className="btn btn-neutral" onClick={() => signOut(auth)}>
-          LogOut
-        </button>
+        <div class="dropdown dropdown-hover">
+          <div tabindex="0" role="button" class="m-1">
+            <img
+              className="w-10 mx-auto my-2 xl:my-0 rounded-full"
+              src={user ? user?.photoURL : "https://i.ibb.co/QXbhtw0/user.png"}
+              alt=""
+            />
+          </div>
+          <ul
+            tabindex="0"
+            class="dropdown-content z-[1] menu p-2 shadow   rounded-box w-52 bg-[#374151] text-center right-0 "
+          >
+            <li className="my-2 text-white">{user?.displayName}</li>
+            <hr />
+            <button
+              className="btn btn-neutral my-2"
+              onClick={() => signOut(auth)}
+            >
+              LogOut
+            </button>
+          </ul>
+        </div>
       </div>
     </div>
   );

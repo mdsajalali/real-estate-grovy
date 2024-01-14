@@ -36,7 +36,7 @@ const App = () => {
   }
   return (
     <div>
-      <Navbar />
+      <Navbar user={user} />
       <Hero />
       <About />
       <Projects />
