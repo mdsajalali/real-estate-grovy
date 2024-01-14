@@ -3,7 +3,7 @@ import CarouselItem from "../components/Carousel";
 
 const Hero = () => {
   return (
-    <div >
+    <div>
       <CarouselItem />
     </div>
   );
