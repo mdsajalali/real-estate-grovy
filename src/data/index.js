@@ -51,3 +51,9 @@ import test3 from "../assets/images/test-3.jpg";
 
 
 export const testimonialImg = [test1, test2, test3, tour4]
+
+// Card images
+import book from "../assets/images/book.jpg";
+import gallery from "../assets/images/gallery.jpg";
+
+export const cartImg = [book, gallery]
