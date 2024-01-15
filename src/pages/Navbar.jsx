@@ -1,7 +1,6 @@
 import NavItem from "../components/NavItem";
 
-const Navbar = ({user}) => {
-  
+const Navbar = ({ user }) => {
   return (
     <div>
       <div className=" z-[1000] h-20 w-full border-t-[3px] border-[#3BBFAD] bg-gray-700  ">

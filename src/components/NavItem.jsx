@@ -136,14 +136,14 @@ const NavItem = ({ user }) => {
         <div class="dropdown dropdown-hover">
           <div tabindex="0" role="button" class="m-1">
             <img
-              className="w-10 mx-auto my-2 xl:my-0 rounded-full"
+              className="mx-auto my-2 w-10 rounded-full xl:my-0"
               src={user ? user?.photoURL : "https://i.ibb.co/QXbhtw0/user.png"}
               alt=""
             />
           </div>
           <ul
             tabindex="0"
-            class="dropdown-content z-[1] menu p-2 shadow   rounded-box w-52 bg-[#374151] text-center right-0 "
+            class="menu dropdown-content rounded-box right-0 z-[1]   w-52 bg-[#374151] p-2 text-center shadow "
           >
             <li className="my-2 text-white">{user?.displayName}</li>
             <hr />

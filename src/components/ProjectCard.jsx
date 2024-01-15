@@ -1,4 +1,4 @@
-import { projectImg, projectLogo } from './../data/index';
+import { projectImg, projectLogo } from "./../data/index";
 
 const ProjectCard = () => {
   return (
@@ -14,7 +14,7 @@ const ProjectCard = () => {
               <h2>Welcome Home</h2>
             </div>
           </div>
-          <div className="card xl:w-96 w-[350px] bg-base-100 shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
+          <div className="card w-[350px] transform bg-base-100 shadow-xl transition-transform hover:scale-105 hover:shadow-2xl xl:w-96">
             <figure className="h-[200px] w-full">
               <img src={img} alt="Shoes" />
             </figure>
@@ -27,7 +27,9 @@ const ProjectCard = () => {
                 for rest and relaxation.
               </p>
               <div className="card-actions">
-                <button className="btn btn-neutral transition-opacity hover:opacity-80">Read More</button>
+                <button className="btn btn-neutral transition-opacity hover:opacity-80">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
