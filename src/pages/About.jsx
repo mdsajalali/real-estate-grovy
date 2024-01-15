@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className="flex-1 text-black">
           <h1 className="text-5xl font-bold">ABOUT US</h1>
-          <div class=" mt-5 w-14 border-t-4 border-white "></div>
+          <div className=" mt-5 w-14 border-t-4 border-white "></div>
           <p className="py-6">
             <p>Grovy - Real Estate Developers in Dubai</p>
             <p className="my-5">

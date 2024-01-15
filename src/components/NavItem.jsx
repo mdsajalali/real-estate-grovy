@@ -2,8 +2,6 @@ import { getAuth, signOut } from "firebase/auth";
 import { app } from "../firebase";
 const auth = getAuth(app);
 const NavItem = ({ user }) => {
-  console.log(user);
-
   return (
     <div className="container navbar mx-auto  px-5 text-black xl:text-white">
       <div className="dropdown">
@@ -133,8 +131,8 @@ const NavItem = ({ user }) => {
       </div>
 
       <div className="absolute right-10 md:right-24 2xl:right-0 2xl:px-52">
-        <div class="dropdown dropdown-hover">
-          <div tabindex="0" role="button" class="m-1">
+        <div className="dropdown dropdown-hover">
+          <div tabindex="0" role="button" className="m-1">
             <img
               className="mx-auto my-2 w-10 rounded-full xl:my-0"
               src={user ? user?.photoURL : "https://i.ibb.co/QXbhtw0/user.png"}
@@ -143,7 +141,7 @@ const NavItem = ({ user }) => {
           </div>
           <ul
             tabindex="0"
-            class="menu dropdown-content rounded-box right-0 z-[1]   w-52 bg-[#374151] p-2 text-center shadow "
+            className="menu dropdown-content rounded-box right-0 z-[1]   w-52 bg-[#374151] p-2 text-center shadow "
           >
             <li className="my-2 text-white">{user?.displayName}</li>
             <hr />
