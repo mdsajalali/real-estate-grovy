@@ -1,22 +1,20 @@
 # Real-State_Grovy
 
 ## 🌐 Project Purpose
-### This is a React-based real estate website as part of an internship project.
 
-> Responsive Real State website
+### This is a React-based real estate website as part of an internship project.
 
 #### Live Link: [Real-Estate-Grovy](https://real-estate-grovy.vercel.app/)
 
-## Used Technology
+## Used Technologies
 
 - [x] HTML
 - [x] TAILWINDCSS
-- [x] TAILWINDCSS [DaisyUI]
-- [x] Carousel [React-Responsive-Carousel]
-- [x] FIREBASE - LOGIN
-- [x] GOOGLE FONTS [Montserrat,Open Sans]
-- [x] ICON [React-Icons]
-
+- [x] [DaisyUI](https://daisyui.com/)
+- [x] Carousel: [React-Responsive-Carousel](https://react-responsive-carousel.js.org/)
+- [x] Authentication: Firebase (Login)
+- [x] Fonts: Google Fonts (Montserrat, Open Sans)
+- [x] Icons: [React-Icons](https://react-icons.github.io/react-icons/)
 
 ### 💻 Getting Started
 
@@ -32,6 +30,7 @@ git clone https://github.com/mdsajalali/real-estate-grovy.git
 cd real-estate-grovy
 npm install
 ```
+
 3. Create a .env.local file in the root and paste the following code:
 
 ```
