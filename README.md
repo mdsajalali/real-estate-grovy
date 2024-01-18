@@ -10,6 +10,7 @@
 
 - [x] HTML
 - [x] TAILWINDCSS
+- [x] REACT.JS
 - [x] [DaisyUI](https://daisyui.com/)
 - [x] Carousel: [React-Responsive-Carousel](https://react-responsive-carousel.js.org/)
 - [x] Authentication: Firebase (Login)
